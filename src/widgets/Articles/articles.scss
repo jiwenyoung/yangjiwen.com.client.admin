@@ -1,0 +1,27 @@
+$table-head-bgcolor : #eee;
+
+.table{
+    thead{
+        background-color: $table-head-bgcolor;
+        tr th{
+            text-transform:capitalize;
+            text-align: center;
+        }
+    }
+    tbody{
+        tr{
+            cursor: pointer;
+        } 
+        tr td:nth-child(1){
+            font-weight: bold;
+            vertical-align: middle;
+            width: 80%;
+        }
+        tr td:nth-child(2){
+            text-align: center;
+        }
+        th:nth-child(1){
+            width: 80%;
+        }
+    }
+}

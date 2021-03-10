@@ -9,11 +9,12 @@ let win;
 function createWindow() {
     // Create the browser window.
     win = new BrowserWindow({
-        width: 1024,
-        height: 768,
+        width: 1920,
+        height: 1080,
         webPreferences: {
             nodeIntegration: true,
-            contextIsolation: true
+            contextIsolation: true,
+            webSecurity: false
         }
     });
 
@@ -31,6 +32,7 @@ function createWindow() {
 app.whenReady().then(() => {
     try {
         createWindow();
+        win.maximize()
 
         // Open the DevTools.
         if (isDev) {

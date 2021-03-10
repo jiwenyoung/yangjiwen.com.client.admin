@@ -3,16 +3,23 @@
   "version": "0.1.0",
   "main": "public/electron.js",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "electron-is-dev": "^1.2.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
+    "reactstrap": "^8.9.0",
     "web-vitals": "^1.1.0",
-    "electron": "^11.2.3",
-    "electron-is-dev": "^1.2.0",
+    "xss": "^1.0.8"
   },
   "scripts": {
     "dev": "concurrently -k \"cross-env BROWSER=none npm start\" \"npm:electron\"",
@@ -42,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "electron": "^11.2.3",
     "concurrently": "^5.3.0",
     "cross-env": "^7.0.3",
     "electron-packager": "^15.2.0",

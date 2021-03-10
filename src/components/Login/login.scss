@@ -1,0 +1,16 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .login-box{
+        width: 30vw;
+        height: 20vh;
+        .login-input{
+            margin-bottom: 10px;
+        }
+        .login-message .col-md-12{
+            padding: 0px!important;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+$height : 60px;
+$fontsize : x-large;
+$color: #eee;
+$space : 6px;
+
+.logo{
+    display: inline-block;
+    vertical-align:bottom;
+    font-size: $fontsize;
+    text-align: center;
+    letter-spacing: $space;
+    width: 100%;
+    color: $color;
+    margin: 0;
+    padding: 0;
+    line-height: $height;
+    i, i svg{
+        height: $height;
+        font-size: $fontsize;
+        vertical-align: bottom;
+        margin-right: 6px;
+    }
+    span{
+        height: $height;
+    }
+}

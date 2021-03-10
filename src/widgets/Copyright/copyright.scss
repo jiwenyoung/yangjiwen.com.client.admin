@@ -1,0 +1,15 @@
+$color : #666;
+$height : 40px;
+$width : 16.5%;
+
+.copyright{
+    display: block;
+    width: $width;
+    height: $height;
+    line-height: $height;
+    bottom: 0px;
+    color: $color;
+    text-align: center;
+    font-size: small;
+    position: fixed;
+}
